@@ -9,7 +9,7 @@ import reservationRouter from "./routes/reservationRoutes.js"
 const app=express();
 dotenv.config({path:"./config/config.env"});
 const corsOptions = {                //frontend connect to backend
-  origin: "http://localhost:5173",
+  origin: "https://tastbite-project1.vercel.app",
   credentials: true,
 };
 app.use(cors(corsOptions));
